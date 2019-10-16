@@ -94,6 +94,6 @@ Vous avez tous une version 10 de NodeJs, comme ceci.
 
 Alors c'est parti ! (Sinon repasse par l'étape 'installation' ! Et que sa saute !!)
 
-![gif allez](https://media.giphy.com/media/9S3G7wZHXYcQkvaStx/giphy.gif)
+![lets go](https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif)
 
 [=> Introduction](markdown/01-intro.md)
