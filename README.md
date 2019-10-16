@@ -23,7 +23,7 @@ Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'
 Déjà avant tout chose, passons par la case « installation ».
 Pour pouvoir coder avec React il vous faut impérativement avoir NodeJs sur votre machine .
 
-Je vous invite donc à suivre les étapes suivantes :
+Je vous invite donc à suivre les étapes suivantes, pour ceux qui ont déjà Node.js sur leur machine. Je vous invite donc à passer l'étape de l'installation et à vous rendre dans le [bas de la page](#version).
 
 ## Installation sur linux
 
@@ -37,7 +37,7 @@ sudo apt-get install nodejs npm
 ```
 Mais n'hésitez pas à suivre la [doc](https://doc.ubuntu-fr.org/nodejs) de ubuntu.
 
-OU 
+OU
 
 Vous pouvez aussi suivre ce [tuto youtube](https://www.youtube.com/watch?v=sIfk8hpRLUg) .
 
@@ -80,7 +80,7 @@ Etape 1:
 
 ![Aperçu](markdown/img/install/mac/1.png)
 
-## Déjà installer ? Vérifie ta version
+## Déjà installer ? Vérifie ta version <a id="version"></a>
 
 Pour ceux qui aurait déjà NodeJs installé veuillez vérifier la version que vous avez sur votre machine en entrant cette ligne dans votre terminal.
 

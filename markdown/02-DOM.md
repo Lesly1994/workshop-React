@@ -1,7 +1,7 @@
 # Le DOM  (Document Object Model)
 
 ### Petit rappel sur ce qu'est le DOM ! (Ohh nonnn !! Et bien si !)
-Non tu es sûr ?? Ok alors passe ce petit chapitre !!
+Non tu es sûr ?? Ok alors passe ce petit [chapitre](#terminer)!!
 
 ## Pas de panique ce n'est qu'un rappel !
 
@@ -74,7 +74,7 @@ Exemple de querySelectorAll :
 `document.getElementsByTagName` fonctionne de la même manière que `getElementById` , sauf qu'elle prend un nom de tag (div, ul, li, etc.) au lieu d'un ID. Elle renvoie une NodeList (plusieurs éléments), qui est essentiellement un tableau des éléments DOM qu’elle a pu trouvé.
 
 
-Voila le rappel est terminé ! On passe a la suite !
+### Voila le rappel est terminé ! On passe a la suite ! <a id="terminer"></a>
 
 ![gif](https://media.giphy.com/media/3ornjXIIShZ2MgyyHu/giphy.gif)
 
