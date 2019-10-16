@@ -35,7 +35,11 @@ Ou alors, si vous utilisez Yarn:
 yarn start
 ```
 
-Cela va lancer l'appli via un serveur local et va ouvrir automatiquement une page web à l'adresse correspondant .
+Cela va lancer l'appli via un serveur local et va ouvrir automatiquement une page web à l'adresse correspondant.
+
+Local : [localhost:3000](http://localhost:3000/)
+
+Network : [http://172.20.2.86:3000/](http://172.20.2.86:3000/)
 
 La page va se recharger automatiquement quand on enregistre des modification dans notre projet, donc pas besoin de toujours rafraîchir la page.
 

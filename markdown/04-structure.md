@@ -52,6 +52,8 @@ Notez que après nettoyage des fichiers inutiles, notre application sera cassé,
 
 ## index.js
 
+![base index](./img/nettoyage/depart-indexjs.png)
+
 Dans ce fichier on supprimera l'importation du fichier CSS et tout ce qui concerne le serviceWorker.js, il ne restera donc plus que 4 lignes de code dans l'index.js
 
 ```js
@@ -63,6 +65,8 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 ## App.js
+
+![base app](./img/nettoyage/depart-appjs.png)
 
 On a supprimé le svg et css , donc on peut supprimer la ligne qui importe ces fichiers à la ligne 2 et 3.
 
@@ -93,9 +97,9 @@ export default App;
 
 ## Ajout des fichiers nécessaire à notre workshop
 
-Vous trouverez dans la branche `fichiers` du dépot de notre workshop les fichiers qui seront nécessaire à notre workshop: le fichier du style CSS et les images
+Vous trouverez dans la branche `fichiers` du dépot de notre workshop un fichier du style CSS et des images dont vous aurez besoin.
 
-Téléchargez le contenu de ce dépot au format .ZIP, prenez le dossier `static` et déposez-le dans le dossier  src de votre projet.
+Téléchargez le contenu de ce dépot au format ".ZIP", prenez le dossier `static` et déposez-le dans le dossier `src` de votre projet.
 
 Vous devrez ensuite importer notre nouveau fichier CSS en ajoutant une ligne au début du fichier `app.js`
 

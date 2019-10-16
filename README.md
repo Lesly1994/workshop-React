@@ -96,7 +96,7 @@ Vous avez tous une version 10 de NodeJs, comme ceci.
 
 ![version Nodejs](markdown/img/resultat.png)
 
---- 
+---
 
 Alors c'est parti ! (Sinon repasse par l'étape 'installation' ! Et que ça saute !!)
 
