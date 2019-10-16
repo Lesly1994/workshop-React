@@ -7,7 +7,9 @@
 - Lesly Ghyselinck
 
 Ce workshop va faire un rappel sur les bases de ReactJS pour ensuite vous lancer sur React Native.
-Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'avance. Comme par exemple :
+Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'avance. Alors suivez-bien !
+
+---
 
 ## La table des matières
 
@@ -41,6 +43,8 @@ OU
 
 Vous pouvez aussi suivre ce [tuto youtube](https://www.youtube.com/watch?v=sIfk8hpRLUg) .
 
+---
+
 ## Installation sur Windows
 
 Rendez-vous sur le site officiel : [site NodeJs](https://nodejs.org/en/download/) comme ceci :
@@ -70,7 +74,7 @@ Etape 6:
 
 ![Aperçu](markdown/img/install/windows/6.png)
 
-
+---
 
 ## Installation sur Mac
 
@@ -92,7 +96,9 @@ Vous avez tous une version 10 de NodeJs, comme ceci.
 
 ![version Nodejs](markdown/img/resultat.png)
 
-Alors c'est parti ! (Sinon repasse par l'étape 'installation' ! Et que sa saute !!)
+--- 
+
+Alors c'est parti ! (Sinon repasse par l'étape 'installation' ! Et que ça saute !!)
 
 ![lets go](https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif)
 

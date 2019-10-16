@@ -1,23 +1,34 @@
-# La structure de base d'une application ReactJS
+# La structure de base 
 
-Lors de la création d'une application React, la structure de l'application se suit comme ci-dessous:
+Lors de la création d'une application React, la structure de l'application ressemble à comme ci-dessous:
 
-![Structure de l'application](./img/arborescence.png)
+![Structure de l'application](./img/arborescence/arborescence1.png)
 
 ## Le dossier public
 
-Le dossier public contiens tous les fichiers qui seront placés à la racine du dossier lors de la compilation d'une application React.
+Le dossier public contien tous les fichiers qui seront placés à la racine du dossier lors de la compilation d'une application React.
 
-Il n'y a qu'un élément important dans le dossier public: 
+![dossier public](./img/arborescence/arborescence-public.png)
+
+Il n'y a qu'un élément important dans le dossier public:
 
 * **Le fichier index.html** est l'unique page internet qui existera dans notre application React, c'est lui qui chargera et affichera notre application React. Il contiens également les éléments de base de tout page html comme le title, meta, favicon et l'import des scripts. C'est donc ici que vous pourrez changer le titre et la description et la favicon de votre application ou autre balises meta et il ne servira qu'à ça.
+
+![public index](./img/arborescence/arborescence-index.png)
 
 ## Le dossier src
 
 C'est ici que contiendra tout le coeur de notre application, il n'y a que quelques fichiers importants à prendre en compte:
 
+![dossier src](./img/arborescence/arborescence-src.png)
+
 * **Le fichier index.js** est celui qui s'occupera du rendu de notre application. On y touchera que très peu lors de notre workshop et on y retouchera plus jamais.
+
+![src index](./img/arborescence/arborescence-src1.png)
+
 * **Le fichier app.js** est celui qui accueillera le contenu de notre page, c'est ici qu'on construira notre application.
+
+![src app](./img/arborescence/arborescence-src2.png)
 
 ## Nettoyage des fichiers inutiles
 

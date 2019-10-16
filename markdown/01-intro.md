@@ -9,6 +9,7 @@ Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'
 Evidemment tout le monde code en Es6 , hein ? Au cas ou vous auriez oublié 2 ou 3 choses, le lien ici est trés intéréssant pour vous remettre dans le bain :
 [Becode Parcours Javascript](https://github.com/becodeorg/CRL-Turing-3.11/tree/master/Parcours/04-Javascript)
 
+---
 
 ## C'est quoi ReactJS ?
 
@@ -33,6 +34,8 @@ L'un des aspects les plus importants de React est le fait que vous pouvez créer
 ## Ce que vous allez devoir faire
 Aperçu:
 ![Aperçu](./img/apercuresultat.png)
+
+---
 
 # Allez Bonne chance !!!
 

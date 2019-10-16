@@ -3,6 +3,8 @@
 ### Petit rappel sur ce qu'est le DOM ! (Ohh nonnn !! Et bien si !)
 Non tu es sûr ?? Ok alors passe ce petit [chapitre](#terminer)!!
 
+---
+
 ## Do not panic !
 
 ![gif](https://media.giphy.com/media/Hb6w89F9ZlB6M/giphy.gif)
@@ -21,7 +23,9 @@ En voici un petit exemple : ![Illustration](./img/Dom/DOM.png)
 Pour cette raison, le DOM est aussi appelé l'arbre DOM.
 La modification du DOM se fait en choisissant un élément et en changeant quelque chose à son sujet. C’est une action que l’on fait souvent en JavaScript. Pour accéder au DOM à partir de JavaScript, l'objet document est utilisé. Il est fourni par le navigateur et permet au code sur la page d'interagir avec le contenu.
 
-# Obtenir un élément
+---
+
+## Obtenir un élément
 
 Tout d'abord, nous devons savoir comment obtenir/sélectionner un élément à modifier.
 
@@ -74,6 +78,7 @@ Exemple de querySelectorAll :
 
 `document.getElementsByTagName` fonctionne de la même manière que `getElementById` , sauf qu'elle prend un nom de tag (div, ul, li, etc.) au lieu d'un ID. Elle renvoie une NodeList (plusieurs éléments), qui est essentiellement un tableau des éléments DOM qu’elle a pu trouvé.
 
+---
 
 ### Voila le rappel est terminé ! On passe a la suite ! <a id="terminer"></a>
 
