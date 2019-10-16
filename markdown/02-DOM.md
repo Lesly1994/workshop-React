@@ -3,10 +3,11 @@
 ### Petit rappel sur ce qu'est le DOM ! (Ohh nonnn !! Et bien si !)
 Non tu es sûr ?? Ok alors passe ce petit [chapitre](#terminer)!!
 
-## Pas de panique ce n'est qu'un rappel !
+## Do not panic !
 
 ![gif](https://media.giphy.com/media/Hb6w89F9ZlB6M/giphy.gif)
 
+### Ce n'est qu'un petit rappel
 
 Vous savez déjà qu'une page web est un document contenant du texte ainsi que des balises qui permettent de structurer ce document, en décrivant des éléments comme des titres, des paragraphes, des liens, et ect .
 

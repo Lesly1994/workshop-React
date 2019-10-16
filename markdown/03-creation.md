@@ -2,7 +2,7 @@
 
 ## Installer le module de création d'application via NPM
 
-Pour créer un projet React, il faut au préalable avoir installé le module de création via NPM (si vous n'avez pas NPM, vous devez installer Node.JS sur votre machine)
+Pour créer un projet React, il faut au préalable avoir installé le module de création via NPM (si vous n'avez pas NPM, retour [case départ](../readme.md) )
 
 Dans le terminal de votre machine, lancez cette commande pour installer le module `create-react-app` de manière globale
 ```
@@ -35,13 +35,16 @@ Ou alors, si vous utilisez Yarn:
 yarn start
 ```
 
-Cela va lancer l'appli via un serveur local et va ouvrir automatquement une page web à l'adresse correspondant. La page va se recharger automatiquement quand on enregistre des modification dans notre projet.
+Cela va lancer l'appli via un serveur local et va ouvrir automatiquement une page web à l'adresse correspondant .
+
+La page va se recharger automatiquement quand on enregistre des modification dans notre projet, donc pas besoin de toujours rafraîchir la page.
 
 ![1570528846149](./img/react-app.png)
 
 
-
 Dans le chapitre suivant je vous expliquerai l'arborescence de notre site et on procédera à quelque nettoyage pour supprimer ce qu'on à sur notre page et avoir une page bien blanche.
+
+![oh yeah](https://media.giphy.com/media/l0HlFZ3c4NENSLQRi/giphy.gif)
 
 [=> Chapitre suivant](04-structure.md)
 
