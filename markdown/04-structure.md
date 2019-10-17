@@ -101,7 +101,7 @@ export default App;
 
 ## Ajout des fichiers nécessaire à notre workshop
 
-Rendez-vous sur [ce lien](https://we.tl/t-Wc9hrc1qak)(:target="_blank") pour télécharger un fichier ZIP qui contient un fichier CSS et des images dont vous aurez besoin.
+Rendez-vous sur [ce lien](https://we.tl/t-Wc9hrc1qak){:target="_blank"} pour télécharger un fichier ZIP qui contient un fichier CSS et des images dont vous aurez besoin.
 
 Téléchargez le contenu de ce dépot au format ".ZIP", compressez-le, prenez le dossier `static` et déposez-le dans le dossier `src` de votre projet.
 
