@@ -23,13 +23,13 @@ Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'
 8. Les Hooks
 
 Déjà avant tout chose, passons par la case « installation ».
-Pour pouvoir coder avec React il vous faut impérativement avoir NodeJs sur votre machine .
+Pour pouvoir coder avec React il vous faut impérativement avoir NodeJs sur votre machine.
 
 Je vous invite donc à suivre les étapes suivantes, pour ceux qui ont déjà Node.js sur leur machine. Je vous invite donc à passer l'étape de l'installation et à vous rendre dans le [bas de la page](#version).
 
 ## Installation sur linux
 
-Installer Nodejs sous ubuntu, il suffit d'installer les paquets nodejs et npm.
+Installer Nodejs sous Ubuntu, il suffit d'installer les paquets nodejs et npm.
 
 Dans votre terminal, entrez ces lignes :
 
@@ -50,27 +50,27 @@ Vous pouvez aussi suivre ce [tuto youtube](https://www.youtube.com/watch?v=sIfk8
 Rendez-vous sur le site officiel : [site NodeJs](https://nodejs.org/en/download/) comme ceci :
 
 
-Etape 1:
+Étape 1:
 
 ![Aperçu](markdown/img/install/windows/1.png)
 
-Etape 2:
+Étape 2:
 
 ![Aperçu](markdown/img/install/windows/2.png)
 
-Etape 3:
+Étape 3:
 
 ![Aperçu](markdown/img/install/windows/3.png)
 
-Etape 4:
+Étape 4:
 
 ![Aperçu](markdown/img/install/windows/4.png)
 
-Etape 5:
+Étape 5:
 
 ![Aperçu](markdown/img/install/windows/5.png)
 
-Etape 6:
+Étape 6:
 
 ![Aperçu](markdown/img/install/windows/6.png)
 
@@ -78,9 +78,9 @@ Etape 6:
 
 ## Installation sur Mac
 
-Rendez-vous sur le site officiel : [site NodeJs](https://nodejs.org/en/download/) et suivre les étapes !
+Rendez-vous sur le site officiel : [site NodeJs](https://nodejs.org/en/download/) et suivez les étapes !
 
-Etape 1:
+Étape 1:
 
 ![Aperçu](markdown/img/install/mac/1.png)
 
