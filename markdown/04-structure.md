@@ -109,6 +109,8 @@ Vous devrez ensuite importer notre nouveau fichier CSS en ajoutant une ligne au 
 import "./static/style.css";
 ```
 
-Evidemment pour la suite n'oublier pas de retourner sur la branche `master`.
+Comme ceci : 
+
+![final appjs](./img/nettoyage/final-appjs.png)
 
 [=> Chapitre suivant](05-component.md)
