@@ -123,7 +123,7 @@ Pour faire passer un prop, on écrit tout simplement le nom de notre prop à l'i
 
 Dans le fichier `App.js`, vous allez modifier votre  `Button` comme-ci dessous :
 
-```
+```js
 <Button text='Start game!'/>
 ```
 
