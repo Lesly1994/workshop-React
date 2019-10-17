@@ -107,4 +107,6 @@ Vous devrez ensuite importer notre nouveau fichier CSS en ajoutant une ligne au 
 import "./static/style.css";
 ```
 
+Evidemment pour la suite n'oublier pas de retourner sur la branche `master`.
+
 [=> Chapitre suivant](05-component.md)
