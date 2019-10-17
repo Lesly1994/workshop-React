@@ -11,15 +11,21 @@ npm install -g create-react-app
 
 ## Créer l'application
 
-Depuis le terminal, naviguer vers le dossier où vous souhaitez créer votre nouveau projet React, et ensuite lancer la commande 
+Depuis le terminal, naviguez vers le dossier où vous souhaitez créer votre nouveau projet React, et ensuite lancer la commande.
+
+**Sur Windows:**
 ```
 create-react-app nom-appli-react
 ```
 
-**Note:** Si la commande ne fonctionne pas, essayez de mettre `npx` au début de la commande
+**Sur Ubuntu:**
 
 ```
 npx create-react-app nom-appli-react
+```
+ou
+```
+npm create-react-app nom-appli-react
 ```
 
 ## Lancement de l'appli
@@ -37,16 +43,16 @@ yarn start
 
 Cela va lancer l'appli via un serveur local et va ouvrir automatiquement une page web à l'adresse correspondant.
 
-Local : [localhost:3000](http://localhost:3000/)
+Local: [localhost:3000](http://localhost:3000/)
 
-Network : [http://172.20.2.86:3000/](http://172.20.2.86:3000/)
+Network: [http://172.20.2.86:3000/](http://172.20.2.86:3000/)
 
-La page va se recharger automatiquement quand on enregistre des modification dans notre projet, donc pas besoin de toujours rafraîchir la page.
+La page va se recharger automatiquement quand on enregistre des modifications dans notre projet, donc pas besoin de toujours rafraîchir la page.
 
 ![1570528846149](./img/react-app.png)
 
 
-Dans le chapitre suivant je vous expliquerai l'arborescence de notre site et on procédera à quelque nettoyage pour supprimer ce qu'on à sur notre page et avoir une page bien blanche.
+Dans le chapitre suivant on vous expliquera l'arborescence de notre site et on procédera à quelque nettoyage pour supprimer ce qu'on a sur notre page et avoir une page bien blanche.
 
 ![oh yeah](https://media.giphy.com/media/l0HlFZ3c4NENSLQRi/giphy.gif)
 
