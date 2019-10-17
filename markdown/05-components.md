@@ -2,11 +2,15 @@
 
 Pour mieux comprendre comment un component fonctionne, on va comparer notre application à une maison: l'application est notre maison et les components sont les briques qui constituent notre maison.
 
+![construction](https://media.giphy.com/media/fVeAI9dyD5ssIFyOyM/giphy.gif)
+
 Un component est fait à partir d'un fichier séparé qu'on exporte vers notre application (ou vers un autre component). Ce component sera généralement constitué d'une section bien spécifique d'une application. On pourrais par exemple créer un component juste pour un formulaire et un autre component juste pour afficher une liste.
 
 Avant de créer notre premier component, on va d'abord créer un dossier au nom de `components` dans le dossier `src`. Ce sera dans ce dossier qu'on créera tous nos component.
 
 Dans ce dossier `components` on va créer un nouveau fichier `Button.js` (ne pas oublier la majuscule)
+
+![component-button](./img/component/component-button.png)
 
 Dans ce fichier on va d'abord lui demander d'importer React.
 
@@ -28,11 +32,14 @@ A l'intérieur de cette fonction, on va lui demander de retourner un boutton en 
 
 ```js
 function Button (props){
-	return <button className='button>Mon boutton</button>
+	return <button className='button'>Mon bouton</button>
 }
 ```
+Félicitation vous venez de réaliser votre 1er component
 
+![congratulation](https://media.giphy.com/media/3o6fIUZTTDl0IDjbZS/giphy.gif)
 
+---
 
 ## Le JSX
 
