@@ -4,11 +4,11 @@ Pour mieux comprendre comment un component fonctionne, on va comparer notre appl
 
 ![construction](https://media.giphy.com/media/fVeAI9dyD5ssIFyOyM/giphy.gif)
 
-Un component est fait à partir d'un fichier séparé qu'on exporte vers notre application (ou vers un autre component). Ce component sera généralement constitué d'une section bien spécifique d'une application. On pourrais par exemple créer un component juste pour un formulaire et un autre component juste pour afficher une liste.
+Un component est fait à partir d'un fichier séparé qu'on exporte vers notre application (ou vers un autre component). Ce component sera généralement constitué d'une section bien spécifique d'une application. On pourrait par exemple créer un component juste pour un formulaire et un autre component juste pour afficher une liste.
 
-Avant de créer notre premier component, on va d'abord créer un dossier au nom de `Components` dans le dossier `src`. Ce sera dans ce dossier qu'on créera tous nos component. 
+Avant de créer notre premier component, on va d'abord créer un dossier au nom de `Components` dans le dossier `src`. Ce sera dans ce dossier qu'on créera tous nos components. 
 
-_*Petit infos, lorsque vous creer un fichier dans le dossier `Components`, vos noms de fichier doivent commencer par une majuscule._ 
+_*Petite info, lorsque vous créez un fichier dans le dossier `Components`, vos noms de fichier doivent commencer par une majuscule._ 
 
 Dans ce dossier `Components` on va créer un nouveau fichier `Button.js` (ne pas oublier la majuscule)
 
@@ -20,7 +20,7 @@ Dans ce fichier on va d'abord lui demander d'importer React.
 import React from 'react';
 ```
 
-Ensuite on va créer une fonction qui portera le même nom que le fichier et on va lui dire de l'exporter, la fonction aura comme argument `props` dont je vous fournirais l'explication plus tard.
+Ensuite on va créer une fonction qui portera le même nom que le fichier et on va lui dire de l'exporter, la fonction aura comme argument `props` dont on vous fournira l'explication plus tard.
 
 ```js
 function Button (props){
@@ -30,7 +30,7 @@ function Button (props){
 export default Button;
 ```
 
-A l'intérieur de cette fonction, on va lui demander de retourner un boutton en HTML
+A l'intérieur de cette fonction, on va lui demander de retourner un bouton en HTML.
 
 ```js
 function Button (props){
@@ -45,11 +45,11 @@ Félicitation vous venez de réaliser votre 1er component !!
 
 ## Le JSX
 
-La premier question que vous allez sans doute vous poser: *Mais pourqoi un élément HTML dans un JavaScript et sans guillemets??*
+La première question que vous allez sans doute vous poser: *Mais pourquoi un élément HTML dans un JavaScript et sans guillemets?*
 
-C'est ce qu'on appelle le JSX, React nous permets d'écrire du HTML à l'intérieur du JavaScript et React le comprendra parfaittement. Ce qui constitue une excellente aide visuelle et simplifie grandement les choses.
+C'est ce qu'on appelle le JSX, React nous permet d'écrire du HTML à l'intérieur du JavaScript et React le comprendra parfaittement. Ce qui constitue une excellente aide visuelle et simplifie grandement les choses.
 
-Chose à noter est qu'on ne peut pas mélanger des expression et du JSX en même temps, on utilisera des moustaches `{ }` pour y mettre nos expressions.
+Chose à noter est qu'on ne peut pas mélanger des expressions et du JSX en même temps, on utilisera des moustaches `{ }` pour y mettre nos expressions.
 
 ```js
 // Exemple
@@ -88,13 +88,13 @@ function Accueil () {
 
 Cette petite explication terminée, on va retourner sur notre fichier `app.js`
 
-Pour intégrer notre nouveau component, on va d'abord l'importer. On écrit donc `import`, le nom du composant, `from` avec le chemin vers le fichier JavaScript (sans l'extention .js)
+Pour intégrer notre nouveau component, on va d'abord l'importer. On écrit donc `import`, le nom du composant, `from` avec le chemin vers le fichier JavaScript (sans l'extension .js)
 
 ```js
 import Button from './components/Button'
 ```
 
-Ensuite pour l'appeler et l'intégrer dans notre page, on se sert tout simplement d'une balise HTML avec le nom de notre component à l'intérieur
+Ensuite pour l'appeler et l'intégrer dans notre page, on se sert tout simplement d'une balise HTML avec le nom de notre component à l'intérieur.
 
 ```js
 // class App extends Component {
@@ -109,7 +109,7 @@ Ensuite pour l'appeler et l'intégrer dans notre page, on se sert tout simplemen
 //}
 ```
 
-Vous verrez apparaitre notre bouton créé dans l'autre fichier JS , voici le résultat [local](http://localhost:3000/) ou [network](http://172.20.2.86:3000/ ) .
+Vous verrez apparaître notre bouton créé dans l'autre fichier JS , voici le résultat [local](http://localhost:3000/) ou [network](http://172.20.2.86:3000/ ) .
 
 ---
 
@@ -131,9 +131,9 @@ Dans l'exemple ci-dessus, on va lui faire passer un prop au nom de `text` avec c
 
 ### Lire un props
 
-Tous les props qui ont étés envoyés seront stockés dans un objet `props`. Le texte qu'on a fait passé dans `app.js` sera donc dans `props.text`
+Tous les props qui ont été envoyé seront stockés dans un objet `props`. Le texte qu'on a fait passer dans `app.js` sera donc dans `props.text`
 
-On va donc modifier notre code dans `Button.js` pour afficher cette valeur dans notre boutton.js
+On va donc modifier notre code dans `Button.js` pour afficher cette valeur dans notre `Button.js`.
 
 ```js
 return <button className='button>{props.text}</button>
