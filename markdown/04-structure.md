@@ -41,8 +41,10 @@ Tous les autres fichiers que je n'ai pas cités au dessus sont inutiles pour la 
 * Le fichier **serviceWorker.js** est un script qui est exécuté en tâche de fond et qui permet de gérer des notifications push, la synchronisation de arrière-plan, d'intercepter des requêtes réseau et gérer le cache, ce qui est complètement inutile dans notre cas.
 *  Le fichier **App.test.js** est utilisé lorsqu'on lance des test dans un environnement isolé, un sujet qui n'est pas du tout abordé dans ce test et qui n'est pas nécessaire dans le fonctionnement d'une application React
 * Les fichiers **CSS** ne sont utilisés que pour la mise en page de la page d'introduction généré lors de la création de l'application. Je vous fournirais un CSS déjà créé donc ces fichiers ne sont absolument pas nécessaire
+* Les images et logo dans chaque dossier ne sont plus utiles non plus .
 
-![Arborescence de l'application après nettoyage](./img/nettoyage.png)
+
+![Arborescence de l'application après nettoyage](./img/arborescence/nettoyage.png)
 
 ---
 
