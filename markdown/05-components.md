@@ -10,7 +10,7 @@ Avant de créer notre premier component, on va d'abord créer un dossier au nom 
 
 Dans ce dossier `components` on va créer un nouveau fichier `Button.js` (ne pas oublier la majuscule)
 
-![component-button](./img/component/component-button.png)
+![button](./img/component/component-button.png)
 
 Dans ce fichier on va d'abord lui demander d'importer React.
 
