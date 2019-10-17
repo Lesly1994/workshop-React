@@ -50,3 +50,5 @@ Simple , il suffit d'utilisé un prop regarder
 
 (demander a fred pour terminer demain matin 
 )
+
+[chapitre suivant =>](08-final.md)
