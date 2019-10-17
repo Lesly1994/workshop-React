@@ -2,11 +2,11 @@
 
 ## Création du state
 
-Le state est une variable de type objet on l'on crée les différents éléments qu'on souhaite et qu'on pourra mettre à jour.
+Le state est une variable de type objet où l'on crée les différents éléments qu'on souhaite et qu'on pourra mettre à jour.
 
-_Le state se traduit par un état local. Il est similaire aux props sauf qu'il est privé et est entièrement contrôlée par le composant qui l'a créé. Il permet de stocker des données, de contrôler le rendu du composant et comment il se comporte. Un élément du state est accessible de la même manière d'un props: `this.state.monEtat`_
+_Le state se traduit par un état local. Il est similaire aux props sauf qu'il est privé et est entièrement contrôlé par le composant qui l'a créé. Il permet de stocker des données, de contrôler le rendu du composant et comment il se comporte. Un élément du state est accessible de la même manière d'un props: `this.state.monEtat`_
 
-Dans `App.js`, à l'intérieur de notre classe au dessus du render, on va créer notre state avec un élément score.
+Dans `App.js`, à l'intérieur de notre class au dessus du render, on va créer notre state avec un élément score.
 
 ```js
 class App extends Component {
