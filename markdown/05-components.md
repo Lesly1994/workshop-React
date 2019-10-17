@@ -109,7 +109,9 @@ Ensuite pour l'appeler et l'intégrer dans notre page, on se sert tout simplemen
 //}
 ```
 
-Vous verrez apparaitre notre boutton créé dans l'autre fichier JS
+Vous verrez apparaitre notre bouton créé dans l'autre fichier JS , voici le résultat [local](http://localhost:3000/) ou [network](http://172.20.2.86:3000/ ) .
+
+---
 
 ## Les props
 
@@ -119,13 +121,15 @@ Les props sont un moyen de faire passer des données vers un autre component, c'
 
 Pour faire passer un prop, on écrit tout simplement le nom de notre prop à l'intérieur de la balise qui appelle le component suivi de la valeur qu'on souhaite lui passer (exactement comme quand on veut mettre un attribut dans une balise HTML)
 
-```js
+Dans le fichier `App.js`, vous allez modifier votre  `Button` comme-ci dessous :
+
+```
 <Button text='Start game!'/>
 ```
 
 Dans l'exemple ci-dessus, on va lui faire passer un prop au nom de `text` avec comme valeur un string `'Start game!'`
 
-### Lire un prop
+### Lire un props
 
 Tous les props qui ont étés envoyés seront stockés dans un objet `props`. Le texte qu'on a fait passé dans `app.js` sera donc dans `props.text`
 
