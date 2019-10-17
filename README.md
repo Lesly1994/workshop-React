@@ -19,8 +19,9 @@ Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'
 4. La structure
 5. Les components
 6. Les states
-7. Les props
-8. Les Hooks
+7. Board
+8. La final
+9. Bonus
 
 Déjà avant tout chose, passons par la case « installation ».
 Pour pouvoir coder avec React il vous faut impérativement avoir NodeJs sur votre machine.
