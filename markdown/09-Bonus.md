@@ -37,3 +37,5 @@ Il y a deux sortes de Hooks , Hook d'état et Hook d'effet , je vous ai mis ci-d
 ## Impréssionant n'est ce pas ?! 
 
 *Si vous avez du mal a comprndre les hooks n'hesitez pas a consulter la doc depuis le début => [la documentation des hooks](https://fr.reactjs.org/docs/hooks-intro.html).*
+
+PS : pour les petits curieux regarde sa (lien arnaud)
