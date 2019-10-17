@@ -6,9 +6,11 @@ Pour mieux comprendre comment un component fonctionne, on va comparer notre appl
 
 Un component est fait à partir d'un fichier séparé qu'on exporte vers notre application (ou vers un autre component). Ce component sera généralement constitué d'une section bien spécifique d'une application. On pourrais par exemple créer un component juste pour un formulaire et un autre component juste pour afficher une liste.
 
-Avant de créer notre premier component, on va d'abord créer un dossier au nom de `components` dans le dossier `src`. Ce sera dans ce dossier qu'on créera tous nos component.
+Avant de créer notre premier component, on va d'abord créer un dossier au nom de `Components` dans le dossier `src`. Ce sera dans ce dossier qu'on créera tous nos component. 
 
-Dans ce dossier `components` on va créer un nouveau fichier `Button.js` (ne pas oublier la majuscule)
+_*Petit infos, lorsque vous creer un fichier dans le dossier `Components`, vos noms de fichier doivent commencer par une majuscule._ 
+
+Dans ce dossier `Components` on va créer un nouveau fichier `Button.js` (ne pas oublier la majuscule)
 
 ![button](./img/component/component-button.png)
 
@@ -35,7 +37,7 @@ function Button (props){
 	return <button className='button'>Mon bouton</button>
 }
 ```
-Félicitation vous venez de réaliser votre 1er component
+Félicitation vous venez de réaliser votre 1er component !!
 
 ![congratulation](https://media.giphy.com/media/3o6fIUZTTDl0IDjbZS/giphy.gif)
 
@@ -82,11 +84,9 @@ function Accueil () {
 }
 ```
 
-
-
 ---
 
-Sur cette parenthèse terminé, on va retourner sur notre fichier `app.js`
+Cette petite explication terminée, on va retourner sur notre fichier `app.js`
 
 Pour intégrer notre nouveau component, on va d'abord l'importer. On écrit donc `import`, le nom du composant, `from` avec le chemin vers le fichier JavaScript (sans l'extention .js)
 

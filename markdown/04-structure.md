@@ -43,7 +43,6 @@ Tous les autres fichiers que je n'ai pas cités au dessus sont inutiles pour la 
 * Les fichiers **CSS** ne sont utilisés que pour la mise en page de la page d'introduction généré lors de la création de l'application. Je vous fournirais un CSS déjà créé donc ces fichiers ne sont absolument pas nécessaire
 * Les images et logo dans chaque dossier ne sont plus utiles non plus .
 
-
 ![Arborescence de l'application après nettoyage](./img/arborescence/nettoyage.png)
 
 ---
