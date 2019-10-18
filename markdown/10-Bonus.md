@@ -48,6 +48,7 @@ La 16.9 est en développement depuis plusieurs mois. Durant l'été, les dévelo
 P.S.: pour les petits curieux regardez [ce lien](http://github.com/facebook/react/releases)
 
 Merci Arnaud !
+
 ![merci](https://media.giphy.com/media/SWzyqJ61Uc3lh6eCCD/giphy.gif)
 
 Si vous avez d'autres questions, appelez Fred ! ;)
