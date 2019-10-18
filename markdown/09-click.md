@@ -86,4 +86,4 @@ Et voilà, le jeu est fonctionnel!
 
 
 
-[Chapitre Bonus =>](10-bonus.md)
+[Chapitre Bonus =>](10-Bonus.md)
