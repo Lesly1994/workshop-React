@@ -6,9 +6,9 @@ Pour mieux comprendre comment un component fonctionne, on va comparer notre appl
 
 Un component est fait à partir d'un fichier séparé qu'on exporte vers notre application (ou vers un autre component). Ce component sera généralement constitué d'une section bien spécifique d'une application. On pourrait par exemple créer un component juste pour un formulaire et un autre component juste pour afficher une liste.
 
-Avant de créer notre premier component, on va d'abord créer un dossier au nom de `Components` dans le dossier `src`. Ce sera dans ce dossier qu'on créera tous nos components. 
+Avant de créer notre premier component, on va d'abord créer un dossier au nom de `components` dans le dossier `src`. Ce sera dans ce dossier qu'on créera tous nos components. 
 
-_*Petite info, lorsque vous créez un fichier dans le dossier `Components`, vos noms de fichier doivent commencer par une majuscule._ 
+_*Petite info, lorsque vous créez un fichier dans le dossier `components`, vos noms de fichier doivent commencer par une majuscule._ 
 
 Dans ce dossier `components` on va créer un nouveau fichier `Button.js` (ne pas oublier la majuscule)
 
