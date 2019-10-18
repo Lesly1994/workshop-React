@@ -50,7 +50,7 @@ class App extends Component {
 //    	return (
 //      	<div className="app">
 //        		<h1>Application React</h1>
-    			<p>this.state.score</p>
+    			<p>{this.state.score}</p>
 //		 	<Button text='Start game!'/>
 //      	</div>
 //    	);
