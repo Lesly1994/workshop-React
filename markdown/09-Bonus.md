@@ -38,4 +38,17 @@ Il y a deux sortes de Hooks , Hook d'état et Hook d'effet , je vous ai mis ci-d
 
 *Si vous avez du mal a comprndre les hooks n'hesitez pas a consulter la doc depuis le début => [la documentation des hooks](https://fr.reactjs.org/docs/hooks-intro.html).*
 
-PS : pour les petits curieux regarde sa (lien arnaud)
+## Mise à jour de React
+
+Il va y avoir une nouvelle mise à jour de React en automne/hiver, le React 16.9.
+
+**Les principales nouveautés attendues/annoncées:**
+
+La 16.9 est en développement depuis plusieurs mois. Durant l'été, les développeurs ont été appelés à tester les préversions. Parmi les nouveautés, on notera la dépréciation de UNSAFE_* ou encore de JavaScript :URLS, des composants Factory, pas mal de corrections de bugs. 
+Parmi les nouveautés: Async act(), mesures de performances avec React.Profiler. Une nouvelle version de React DevTools a été déployée en août dernier.
+
+P.S.: pour les petits curieux regardez [ce lien](https://github.com/facebook/react/releases). 
+
+Merci Arnaud !
+
+![Merci](https://media.giphy.com/media/SWzyqJ61Uc3lh6eCCD/giphy.gif)
