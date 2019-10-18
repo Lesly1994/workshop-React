@@ -137,7 +137,7 @@ On va donc modifier notre code dans `Button.js` pour afficher cette valeur dans 
 
 
 ```js
-return <button className='button>{props.text}</button>
+return <button className='button'>{props.text}</button>
 ```
 
 Vous verrez donc le texte `Start game!` qui à été défini depuis l'appel du component de `App.js`
