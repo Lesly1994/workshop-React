@@ -60,7 +60,7 @@ class App extends Component {
 
 Notez cependant que setState() est une fonction asynchrone, c'est à dire que vous n'aurez pas forcément la nouvelle valeur si vous lisez une state directement après un setState()
 
-
+----
 
 ## Passer la fonction au bouton
 
@@ -90,5 +90,4 @@ Magique non ?!
 
 ![magique](https://media.giphy.com/media/QIiqoufLNmWo8/giphy.gif)
 
-[chapitre suivant =>](07-board.md)
-
+[Chapitre suivant =>](07-board.md)

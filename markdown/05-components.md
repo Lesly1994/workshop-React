@@ -86,7 +86,7 @@ function Accueil () {
 
 ---
 
-Cette petite explication terminée, on va retourner sur notre fichier `app.js`
+Cette petite explication terminée, on va retourner sur notre fichier `App.js`
 
 Pour intégrer notre nouveau component, on va d'abord l'importer. On écrit donc `import`, le nom du composant, `from` avec le chemin vers le fichier JavaScript (sans l'extension .js)
 
@@ -131,9 +131,10 @@ Dans l'exemple ci-dessus, on va lui faire passer un prop au nom de `text` avec c
 
 ### Lire un props
 
-Dans un component, tous les props qui ont été envoyé seront stockés dans un objet `props`. Le texte qu'on a fait passer depuis `app.js` sera donc dans `props.text` dans `Button.js`
+Dans un component, tous les props qui ont été envoyés seront stockés dans un objet `props`. Le texte qu'on a fait passer depuis `App.js` sera donc dans `props.text` dans `Button.js`
 
 On va donc modifier notre code dans `Button.js` pour afficher cette valeur dans notre bouton.
+
 
 ```js
 return <button className='button>{props.text}</button>
@@ -141,4 +142,4 @@ return <button className='button>{props.text}</button>
 
 Vous verrez donc le texte `Start game!` qui à été défini depuis l'appel du component de `App.js`
 
-[=> chapitre suivant](06-state.md)
+[Chapitre suivant =>](06-state.md)

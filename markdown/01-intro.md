@@ -41,4 +41,4 @@ Aperçu:
 
 ![gif](https://media.giphy.com/media/j1Xyt3DHfJcmk/giphy.gif)
 
-[=> Chapitre suivant](02-DOM.md)
+[Chapitre suivant =>](02-DOM.md)

@@ -7,6 +7,7 @@
 - Lesly Ghyselinck
 
 Ce workshop va faire un rappel sur les bases de ReactJS pour ensuite vous lancer sur React Native.
+
 Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'avance. Alors suivez-bien !
 
 ---
@@ -24,7 +25,7 @@ Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'
 9. Le click
 10. Un bonus
 
-Déjà avant tout chose, passons par la case « installation ».
+Déjà avant toute chose, passons par la case « installation ».
 Pour pouvoir coder avec React il vous faut impérativement avoir NodeJs sur votre machine.
 
 Je vous invite donc à suivre les étapes suivantes, pour ceux qui ont déjà Node.js sur leur machine. Je vous invite donc à passer l'étape de l'installation et à vous rendre dans le [bas de la page](#version).

@@ -84,4 +84,4 @@ Exemple de querySelectorAll :
 
 ![gif](https://media.giphy.com/media/3ornjXIIShZ2MgyyHu/giphy.gif)
 
-[=> chapitre suivant](03-creation.md)
+[Chapitre suivant =>](03-creation.md)

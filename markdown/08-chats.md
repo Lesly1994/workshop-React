@@ -13,7 +13,7 @@ state={
 
 Ensuite on va ajouter une nouvelle fonction qu'on appellera `changeActiveCat` au dessus de la fonction render.
 
-``` 
+```
 changeActiveCat = () => {
 
 }
@@ -24,14 +24,14 @@ A l'intérieur de cette fonction, on va en un premier temps générer un chiffre
 ```js
 chageActiveCat = () => {
 	let newNbr
-	
+
 	newNbr = Math.floor(Math.random()*9+1)
-    
+
     this.setState({cat: newNbr})
 }
 ```
 
-Le problème ici, c'est qu'il y aura des moments où il générera un même chiffre et le chat pourrais rester sur la même case plus longtemps que prévu, on va donc ajouter un petit `do while`  si le nombre généré est égale à la state
+Le problème ici, c'est qu'il y aura des moments où il générera un même chiffre et le chat pourrait rester sur la même case plus longtemps que prévu, on va donc ajouter un petit `do while`  si le nombre généré est égale à la state
 
 ```js
 chageActiveCat = () => {
@@ -55,7 +55,7 @@ C'est bien qu'on fasse générer un chiffre aléatoire mais il va le faire qu'un
 
 
 
-On va donc créer une autre fonction au dessus de la fonction qu'on a créé qu'on appellera `startGame`, et on va mettre à l'intérieur un `setInterval` à 1000ms pour qu'il répète la fonction toute les secondes.
+On va donc créer une autre fonction au-dessus de la fonction qu'on a créé qu'on appellera `startGame`, et on va mettre à l'intérieur un `setInterval` à 1000ms pour qu'il répète la fonction toutes les secondes.
 
 
 
@@ -67,7 +67,7 @@ startGame = () => {
 
 
 
-Il faut ensuite que cette fonction soit enclenché quand on clique sur le boutton démarer, on va donc remplacer la fonction passé en prop dans notre component Button
+Il faut ensuite que cette fonction soit enclenchée quand on clique sur le bouton démarrer, on va donc remplacer la fonction passée en prop dans notre component Button
 
 ```js
 <Button text='Start game!' click={this.startGame}/>
@@ -82,26 +82,34 @@ Etant donnée que c'est le component `board` qui gère l'apparition des chats, i
 ```js
 // dans le fichier App.js
 <Board cat={this.state.cat}/>
+```'
+
+Bon, c'est bien que notre `app.js` génère un chiffre toutes les secondes, mais il ne se passe encore rien visuellement .
+
+Étant donnée que c'est le component `Board` qui gère l'apparition des chats, il faudra passer notre `state.cat ` dans notre board en tant que props.
+
+```
+<Board cat={this.state.cat}/>
 ```
 
 
-Mais comment ça va se passer pour faire apparaitre les chats? Dans le fichier CSS qu'on vous a fournis, il y a une classe `.visible` qui fait apparaitre les chats. Donc le principe de notre code qui suivra ci-dessous c'est que si le numéro du chat correspond au numéro du trou, il appliquera la classe `.visible`.
+
+Mais comment ça va se passer pour faire apparaitre les chats? Dans le fichier CSS qu'on vous a fourni, il y a une classe `.visible` qui fait apparaitre les chats. Donc le principe de notre code qui suivra ci-dessous c'est que si le numéro du chat correspond au numéro du trou, il appliquera la classe `.visible`.
 
 
 
-Sur `Board.js`, sur la `<div>` qui porte la classe `mole`:
+Sur `Board.js`, sur la `<div>` qui porte la classe `cat`:
 
 ```js
-<div className={`mole ${(this.props.mole === nbr) && 'visible'}`}></div>
+<div className={`cat ${(this.props.cat === nbr) && 'visible'}`}></div>
 ```
 
-Vous allez sans doute vous sentir perdu sur la façon dont j'ai écrit
+Vous allez sans doute vous sentir perdu sur la façon dont on a écrit
 
-`(this.props.mole === nbr) && 'visible'` veut dire *'si `props.mole` est égale au numéro du trou, alors tu ajoute "visible"'*
+`(this.props.cat === nbr) && 'visible'` veut dire *'si `props.cat` est égale au numéro du trou, alors tu ajoutes "visible"'*
 
 
 
 Si tout se passe bien, vous verrez les chats apparaitre aléatoirement dans différents trous.
 
-
-[chapitre suivant =>](09-click.md)
+[Chapitre Bonus =>](09-click.md)
