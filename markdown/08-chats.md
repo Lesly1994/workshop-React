@@ -22,7 +22,7 @@ changeActiveCat = () => {
 A l'intérieur de cette fonction, on va en un premier temps générer un chiffre aléatoire entre 1 et 9 et on appliquera dans un setState.
 
 ```js
-chageActiveCat = () => {
+changeActiveCat = () => {
 	let newNbr
 
 	newNbr = Math.floor(Math.random()*9+1)
@@ -34,7 +34,7 @@ chageActiveCat = () => {
 Le problème ici, c'est qu'il y aura des moments où il générera un même chiffre et le chat pourrait rester sur la même case plus longtemps que prévu, on va donc ajouter un petit `do while`  si le nombre généré est égale à la state
 
 ```js
-chageActiveCat = () => {
+changeActiveCat = () => {
 	let newNbr
 	
 	do{
