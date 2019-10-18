@@ -26,7 +26,7 @@ C'est ici que contiendra tout le coeur de notre application, il n'y a que quelqu
 
 ![src index](./img/arborescence/arborescence-src1.png)
 
-* **Le fichier app.js** est celui qui accueillera le contenu de notre page, c'est ici qu'on construira notre application.
+* **Le fichier App.js** est celui qui accueillera le contenu de notre page, c'est ici qu'on construira notre application.
 
 ![src app](./img/arborescence/arborescence-src2.png)
 
@@ -74,11 +74,11 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 On a supprimé le svg et les css, donc on peut supprimer la ligne qui importe ces fichiers à la ligne 2 et 3.
 
-On peut aussi supprimer tout ce que contient la div avec la class `App`. Vous pouvez aussi ajouter un petit élément `<h1>` pour tester si le rendu fonctionne bien.
+On peut aussi supprimer tout ce que contient la div avec la class `app`. Vous pouvez aussi ajouter un petit élément `<h1>` pour tester si le rendu fonctionne bien.
 
 Pour que vous compreniez mieux comment le `state` fonctionne, on va transformer notre fonction en class et modifier notre importation de React à la première ligne, étant donné que le rendu fonctionne différement dans une class. Il faudra aussi ajouter un `Render(){}` avant le return.
 
-Voici le résultat final pour notre app.js
+Voici le résultat final pour notre App.js
 
 ```js
 import React, {Component} from 'react';
@@ -86,7 +86,7 @@ import React, {Component} from 'react';
 class App extends Component {
   render(){
     return (
-      <div className="App">
+      <div className="app">
         <h1>Application React</h1>
       </div>
     );
@@ -105,7 +105,7 @@ Rendez-vous sur [ce lien](https://we.tl/t-Wc9hrc1qak) pour télécharger un fich
 
 Téléchargez le contenu de ce dépot au format ".ZIP", compressez-le, prenez le dossier `static` et déposez-le dans le dossier `src` de votre projet.
 
-Vous devrez ensuite importer notre nouveau fichier CSS en ajoutant une ligne au début du fichier `app.js`
+Vous devrez ensuite importer notre nouveau fichier CSS en ajoutant une ligne au début du fichier `App.js`
 
 ```js
 import "./static/style.css";

@@ -4,7 +4,7 @@ Le state est une variable de type objet où l'on crée les différents élément
 
 _Le state se traduit par un état local. Il est similaire aux props sauf qu'il est privé et est entièrement contrôlé par le composant qui l'a créé. Il permet de stocker des données, de contrôler le rendu du composant et comment il se comporte. Un élément du state est accessible de la même manière d'un props: `this.state.monEtat`_
 
-Dans `App.js`, à l'intérieur de notre classe au dessus du render, on va créer notre state avec un élément score.
+Dans `App.js`, à l'intérieur de notre class au-dessus du render, on va créer notre state avec un élément score.
 
 ```js
 class App extends Component {
@@ -41,7 +41,7 @@ class App extends Component {
 
 //  render(){
 //    	return (
-//      	<div className="App">
+//      	<div className="app">
 //        		<h1>Application React</h1>
     			<p>this.state.score</p>
 //		 	<Button text='Start game!'/>
@@ -53,13 +53,13 @@ class App extends Component {
 
 Notez cependant que setState() est une fonction asynchrone, c'est à dire que vous n'aurez pas forcément la nouvelle valeur si vous lisez une state directement après un setState()
 
-## Passer la fonction au boutton
+## Passer la fonction au bouton
 
 Pour rappel, notre `button` est dans un component `Button.js`. On ne pourra pas tout simplement faire un `onClick=incrementScore()` car notre fonction se situe dans `App.js`.
 
 On va donc passer notre fonction dans un prop du `Button`
 
-Dans l'appel du component "Button" dans `App.js`:
+Dans l'appel du component Button dans `App.js`:
 
 ```js
 <Button text='Start game!' click={this.incrementScore}/>

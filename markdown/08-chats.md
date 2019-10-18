@@ -1,6 +1,6 @@
 # Apparition des chats
 
-On va maintenant faire apparaitre nos chats de manière aléatoire. Dans `app.js`, on va ajouter un nouveau state qu'on appellera cat:
+On va maintenant faire apparaitre nos chats de manière aléatoire. Dans `App.js`, on va ajouter un nouveau state qu'on appellera cat:
 
 ```js
 state={
@@ -87,15 +87,15 @@ Mais comment ça va se passer pour faire apparaitre les chats? Dans le fichier C
 
 
 
-Sur `Board.js`, sur la `<div>` qui porte la classe `mole`:
+Sur `Board.js`, sur la `<div>` qui porte la classe `cat`:
 
 ```js
-<div className={`mole ${(this.props.mole === nbr) && 'visible'}`}></div>
+<div className={`cat ${(this.props.cat === nbr) && 'visible'}`}></div>
 ```
 
 Vous allez sans doute vous sentir perdu sur la façon dont on a écrit
 
-`(this.props.mole === nbr) && 'visible'` veut dire *'si `props.mole` est égale au numéro du trou, alors tu ajoutes "visible"'*
+`(this.props.cat === nbr) && 'visible'` veut dire *'si `props.cat` est égale au numéro du trou, alors tu ajoutes "visible"'*
 
 
 

@@ -86,7 +86,7 @@ function Accueil () {
 
 ---
 
-Cette petite explication terminée, on va retourner sur notre fichier `app.js`
+Cette petite explication terminée, on va retourner sur notre fichier `App.js`
 
 Pour intégrer notre nouveau component, on va d'abord l'importer. On écrit donc `import`, le nom du composant, `from` avec le chemin vers le fichier JavaScript (sans l'extension .js)
 
@@ -100,7 +100,7 @@ Ensuite pour l'appeler et l'intégrer dans notre page, on se sert tout simplemen
 // class App extends Component {
 //  render(){
 //    return (
-//      <div className="App">
+//      <div className="app">
 //        <h1>Application React</h1>
 		 <Button/>
 //      </div>

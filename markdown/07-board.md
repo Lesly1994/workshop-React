@@ -11,9 +11,10 @@ export default class Board extends Component {
 
 }
     render(){
-            return(
-                // [...]
-            )
+        return (
+            <h1>Board component</h1> 
+            {/* C'est bien de mettre un titre au début pour vérifier si il fonctionne bien */}
+    ) 
 }
 ```
 
@@ -45,12 +46,12 @@ Si tout se passe bien, vous devriez voir le titre qu'on à mis en guise de test 
 
 ## Construction de base du plateau
 
-On va ensuite faire la structure de base du plateau, on va se servir des class déjà construites avec le CSS qu'on vous a fourni. Remplacez le titre h1 par ce qui suit ci-dessous:
+On va ensuite faire la structure de base du plateau, on va se servir des classes déjà construites avec le CSS qu'on vous a fourni. Remplacez le titre h1 dans le fichier `Board` par ce qui suit dessous:
 
 ```js
 <div className='board'>
   <div className='board-item'>
-    <div className='mole'> </div>
+    <div className='cat'> </div>
     <div className='ground'> </div>
   </div>
 </div>
@@ -63,18 +64,24 @@ Une astuce pour créer un élément plusieurs fois est de faire une `map()` dans
 On va donc appliquer cette méthode pour ajouter neuf board-item.
 
 ```js
-<div className='board'>
-	{[1,2,3,4,5,6,7,8,9].map((nbr) => {
-        return(
-        	<div key={nbr} className='board-item'>
-    			<div className='mole'> </div>
-    			<div className='ground'> </div>
-  			</div>
-        )
-    })}
-  
-</div>
+return(
+    <div className='board'>
+        {[1,2,3,4,5,6,7,8,9].map((nbr) => {
+            return(
+                <div key={nbr} className='board-item'>
+                    <div className='cat'> </div>
+                    <div className='ground'> </div>
+                </div>
+            )
+        })}
+    </div>
+)
 ```
+
+Voici à quoi devra ressembler votre fichier `Board` en toute logique, sinon... Recommencez-vous avez manqué une étape !
+
+> ![final](./img/board/fichier-board.png)
+
 
 **REMARQUES:**
 

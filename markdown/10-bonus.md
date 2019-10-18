@@ -52,3 +52,5 @@ P.S.: pour les petits curieux regardez [ce lien](https://github.com/facebook/rea
 Merci Arnaud !
 
 ![Merci](https://media.giphy.com/media/SWzyqJ61Uc3lh6eCCD/giphy.gif)
+
+## Pour plus d'informations, contactez Fred ! 
