@@ -30,7 +30,7 @@ Et on va faire passer la fonction dans le component `Board` en tant que props.
 
 ## Appeler la fonction depuis Board.js
 
-Comme quand on a fait pour le bouton, on va ajouter un `onClick` sur la div `board-item`, sauf que ici il sera écrit de manière différente étant donné qu'on va faire passer un argument
+Comme on l'a fait pour le bouton, on va ajouter un `onClick` sur la div `board-item`, sauf que ici il sera écrit de manière différente étant donné qu'on va faire passer un argument
 
 ```js
 <div key={nbr} onClick={() => this.props.click(nbr)} className='board-item'>
