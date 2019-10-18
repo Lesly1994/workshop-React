@@ -1,6 +1,6 @@
 # Board
 
-Comme pour notre fichier `Button` , nous allons créer un nouveau component et celui-ci se nommera `board.js`, dans notre dossier `components`.
+Comme pour notre fichier `Button.js` , nous allons créer un nouveau component et celui-ci se nommera `Board.js`, dans notre dossier `components`.
 
 ```js
 import React, { Component } from 'react'
@@ -17,38 +17,69 @@ export default class Board extends Component {
 }
 ```
 
-Retournons dans le fichier `App.js`, car beaucoup de chose nous attende la bas . 
-D'abord commençons par ajouter l'importation de notre component `Board`
+Retournons dans le fichier `App.js`, car beaucoup de choses nous attendent là-bas.
+D'abord commençons par ajouter l'importation de notre component `Board`.
+
+
 
 ```js
 import Board from './components/Board';
 ```
 
-## Maintenant accrochez-vous bien  !
 
-![accrochez-vous](https://media.giphy.com/media/JTyvFM8uzvXgmHNSIi/giphy.gif)
+On va ensuite afficher notre component entre le score et le bouton déjà présent:
 
-
-Rendez-vous dans notre objet `state` et ajoutez ceci.
-
-![state](./img/board/board-state.png)
-
-Ce que nous venons d'ajouter servira pour pour l'incrémentation des cases cliqué ( hit ) et des chats ( mole ).
-
-Le but maintenant est de faire une fonction qui, quand on clique sur la case ou sur le chat permerttra d'incrémenter le score , de retirer le chat de la case qui a été cliquée .
+```js
+// [...]
+//	<p>{this.state.score}</p>
+	<Board>
+//	<Button text='Start game!' click={this.incrementScore.bind(this)}/>
+// [...]
+```
 
 
-![fonction](./img/board/fonction-hit.png)
 
-Une fois notre fonction terminée il nous reste plus cas faire une chose . 
-Dans le fichier `Board` , il faut faire appelle a notre fonction fraichement crée , et comment fait-on cela ? 
-
-Simple , il suffit d'utilisé un prop regarder 
+Si tout se passe bien, vous devriez voir le titre qu'on à mis en guise de test s'il fonctionne bien.
 
 
-![fonction](./img/board/board-function.png)
 
-(demander a fred pour terminer demain matin 
-)
+## Construction de base du plateau
+
+On va ensuite faire la structure de base du plateau, on va se servir des class déjà construites avec le CSS qu'on vous a fourni. Remplacez le titre h1 par ce qui suit ci-dessous:
+
+```js
+<div className='board'>
+  <div className='board-item'>
+    <div className='mole'> </div>
+    <div className='ground'> </div>
+  </div>
+</div>
+```
+
+## Re-création dynamique des trous de chats
+
+Une astuce pour créer un élément plusieurs fois est de faire une `map()` dans un tableau avec une suite de chiffres avec le nombre d'éléments que vous voulez avoir. Comme on voudra neuf trous, on fera un tableau de 1 à 9. `[1,2,3,4,5,6,7,8,9]`
+
+On va donc appliquer cette méthode pour ajouter neuf board-item.
+
+```js
+<div className='board'>
+	{[1,2,3,4,5,6,7,8,9].map((nbr) => {
+        return(
+        	<div key={nbr} className='board-item'>
+    			<div className='mole'> </div>
+    			<div className='ground'> </div>
+  			</div>
+        )
+    })}
+  
+</div>
+```
+
+**REMARQUES:**
+
+Pour rappel, comme ce n'est pas du JSX mais du JavaScript, on enferme tout ça entre des moustaches.
+
+Aussi, si on ajoute une propriété `key ` à notre div, c'est parce que React n'aime pas qu'on ré-utilise un élément plusieurs fois sans qu'ils n'aient un identifiant propre à chacun, on a donc utilisé notre argument nbr pour qu'ils aient chacun leur chiffre en tant que key.
 
 [chapitre suivant =>](08-final.md)
