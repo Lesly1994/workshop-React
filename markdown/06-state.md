@@ -79,7 +79,7 @@ Le `.bind(this)` permet à notre fonction de fonctionner, si on ne met pas ce bi
 Dans `Button.js`, on va tout simplement ajouter notre onClick dans notre bouton:
 
 ```js
-<button className="button" onClick={props.click}>{props.title}</button>
+<button className="button" onClick={props.click}>{props.text}</button>
 ```
 
 Dans notre onClick, on mettra tout simplement `props.click` puisque notre fonction est passé dans un prop qu'on a nommé `click`.
