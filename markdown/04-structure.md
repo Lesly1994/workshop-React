@@ -115,4 +115,4 @@ Comme ceci :
 
 ![final appjs](./img/nettoyage/final-appjs.png)
 
-[Chapitre suivant =>](05-component.md)
+[Chapitre suivant =>](05-components.md)
