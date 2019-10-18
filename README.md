@@ -24,7 +24,7 @@ Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'
 8. La final
 9. Bonus
 
-Déjà avant tout chose, passons par la case « installation ».
+Déjà avant toute chose, passons par la case « installation ».
 Pour pouvoir coder avec React il vous faut impérativement avoir NodeJs sur votre machine.
 
 Je vous invite donc à suivre les étapes suivantes, pour ceux qui ont déjà Node.js sur leur machine. Je vous invite donc à passer l'étape de l'installation et à vous rendre dans le [bas de la page](#version).
