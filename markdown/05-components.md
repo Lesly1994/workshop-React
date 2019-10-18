@@ -141,4 +141,4 @@ return <button className='button>{props.text}</button>
 
 Vous verrez donc le texte `Start game!` qui à été défini depuis l'appel du component de `App.js`
 
-[=> chapitre suivant](06-state.md)
+[Chapitre suivant =>](06-state.md)

@@ -82,4 +82,4 @@ Pour rappel, comme ce n'est pas du JSX mais du JavaScript, on enferme tout ça e
 
 Aussi, si on ajoute une propriété `key ` à notre div, c'est parce que React n'aime pas qu'on ré-utilise un élément plusieurs fois sans qu'ils n'aient un identifiant propre à chacun, on a donc utilisé notre argument nbr pour qu'ils aient chacun leur chiffre en tant que key.
 
-[chapitre suivant =>](08-final.md)
+[Chapitre suivant =>](08-chats.md)

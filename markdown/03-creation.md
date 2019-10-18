@@ -56,5 +56,5 @@ Dans le chapitre suivant on vous expliquera l'arborescence de notre site et on p
 
 ![oh yeah](https://media.giphy.com/media/l0HlFZ3c4NENSLQRi/giphy.gif)
 
-[=> Chapitre suivant](04-structure.md)
+[Chapitre suivant =>](04-structure.md)
 

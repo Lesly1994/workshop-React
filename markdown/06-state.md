@@ -83,4 +83,4 @@ Magique non ?!
 
 ![magique](https://media.giphy.com/media/QIiqoufLNmWo8/giphy.gif)
 
-[chapitre suivant =>](07-board.md)
+[Chapitre suivant =>](07-board.md)
