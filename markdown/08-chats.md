@@ -82,13 +82,14 @@ Etant donnée que c'est le component `board` qui gère l'apparition des chats, i
 ```js
 // dans le fichier App.js
 <Board cat={this.state.cat}/>
-```'
+```
 
 Bon, c'est bien que notre `app.js` génère un chiffre toutes les secondes, mais il ne se passe encore rien visuellement .
 
 Étant donnée que c'est le component `Board` qui gère l'apparition des chats, il faudra passer notre `state.cat ` dans notre board en tant que props.
 
-```
+```js
+// dans le fichier App.js
 <Board cat={this.state.cat}/>
 ```
 

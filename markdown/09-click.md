@@ -48,7 +48,7 @@ Si tel est le cas, on incrémente le score, on remet le state `cat` à 0 pour qu
 
 On remettra `hit` à 0 après 250ms
 
-```
+```js
 hit = (clicked) => {
 	if (this.state.cat === clicked){
 		this.setState({
@@ -82,7 +82,8 @@ Ensuite dans le component `Board.js`, on va ajouter cette ligne entre la div du 
 // <div className="ground"></div>
 ```
 
-
-
 Et voilà, le jeu est fonctionnel!
+
+
+
 [Chapitre Bonus =>](10-bonus.md)

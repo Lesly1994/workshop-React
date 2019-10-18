@@ -6,13 +6,12 @@ Comme pour notre fichier `Button.js` , nous allons créer un nouveau component e
 import React, { Component } from 'react'
 
 export default class Board extends Component {
-
-}
-    render(){
-        return (
-            <h1>Board component</h1> 
-            {/* C'est bien de mettre un titre au début pour vérifier si il fonctionne bien */}
-    ) 
+	render(){
+    return (
+      <h1>Board component</h1>
+        {/* C'est bien de mettre un titre au début pour vérifier si il fonctionne bien */}
+    )
+  }
 }
 ```
 
@@ -27,14 +26,6 @@ import Board from './components/Board';
 
 
 On va ensuite afficher notre component entre le score et le bouton déjà présent:
-
-```js
-// [...]
-//	<p>{this.state.score}</p>
-	<Board/>
-//	<Button text='Start game!' click={this.incrementScore.bind(this)}/>
-// [...]
-```
 
 ```js
 // [...]
