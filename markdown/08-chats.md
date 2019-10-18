@@ -84,16 +84,6 @@ Etant donnée que c'est le component `board` qui gère l'apparition des chats, i
 <Board cat={this.state.cat}/>
 ```
 
-Bon, c'est bien que notre `app.js` génère un chiffre toutes les secondes, mais il ne se passe encore rien visuellement .
-
-Étant donnée que c'est le component `Board` qui gère l'apparition des chats, il faudra passer notre `state.cat ` dans notre board en tant que props.
-
-```js
-// dans le fichier App.js
-<Board cat={this.state.cat}/>
-```
-
-
 
 Mais comment ça va se passer pour faire apparaitre les chats? Dans le fichier CSS qu'on vous a fourni, il y a une classe `.visible` qui fait apparaitre les chats. Donc le principe de notre code qui suivra ci-dessous c'est que si le numéro du chat correspond au numéro du trou, il appliquera la classe `.visible`.
 
