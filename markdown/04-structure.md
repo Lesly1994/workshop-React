@@ -74,7 +74,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 On a supprimé le svg et les css, donc on peut supprimer la ligne qui importe ces fichiers à la ligne 2 et 3.
 
-On peut aussi tout ce que contient la div avec la class `App`. Vous pouvez aussi ajouter un petit élément `<h1>` pour tester si le rendu fonctionne bien.
+On peut aussi supprimer tout ce que contient la div avec la class `App`. Vous pouvez aussi ajouter un petit élément `<h1>` pour tester si le rendu fonctionne bien.
 
 Pour que vous compreniez mieux comment le `state` fonctionne, on va transformer notre fonction en class et modifier notre importation de React à la première ligne, étant donné que le rendu fonctionne différement dans une class. Il faudra aussi ajouter un `Render(){}` avant le return.
 

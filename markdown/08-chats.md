@@ -101,4 +101,4 @@ Vous allez sans doute vous sentir perdu sur la façon dont on a écrit
 
 Si tout se passe bien, vous verrez les chats apparaitre aléatoirement dans différents trous.
 
-[Chapitre Bonus =>](09-Bonus.md)
+[Chapitre Bonus =>](09-click.md)

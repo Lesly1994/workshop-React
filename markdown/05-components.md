@@ -49,7 +49,7 @@ La première question que vous allez sans doute vous poser: *Mais pourquoi un é
 
 C'est ce qu'on appelle le JSX, React nous permet d'écrire du HTML à l'intérieur du JavaScript et React le comprendra parfaittement. Ce qui constitue une excellente aide visuelle et simplifie grandement les choses.
 
-Chose à noter est qu'on ne peut pas mélanger des expressions et du JSX en même temps, on utilisera des moustaches `{ }` pour y mettre nos expressions.
+Chose à noter est qu'on ne peut pas mélanger des expressions JS et du JSX en même temps, on utilisera des moustaches `{ }` pour y mettre tout ce qui n'est pas du HTML.
 
 ```js
 // Exemple
@@ -119,7 +119,7 @@ Les props sont un moyen de faire passer des données vers un autre component, c'
 
 ### Faire passer un prop
 
-Pour faire passer un prop, on écrit tout simplement le nom de notre prop à l'intérieur de la balise qui appelle le component suivi de la valeur qu'on souhaite lui passer (exactement comme quand on veut mettre un attribut dans une balise HTML)
+Pour faire passer un prop, on écrit tout simplement le nom de notre prop à l'intérieur de la balise qui appelle le component, on met ensuite la valeur ou l'élément qu'on souhaite lui passer (exactement comme quand on veut mettre un attribut dans une balise HTML)
 
 Dans le fichier `App.js`, vous allez modifier votre  `Button` comme-ci dessous :
 
@@ -131,9 +131,10 @@ Dans l'exemple ci-dessus, on va lui faire passer un prop au nom de `text` avec c
 
 ### Lire un props
 
-Tous les props qui ont été envoyé seront stockés dans un objet `props`. Le texte qu'on a fait passer dans `app.js` sera donc dans `props.text`
+Dans un component, tous les props qui ont été envoyés seront stockés dans un objet `props`. Le texte qu'on a fait passer depuis `App.js` sera donc dans `props.text` dans `Button.js`
 
-On va donc modifier notre code dans `Button.js` pour afficher cette valeur dans notre `Button.js`.
+On va donc modifier notre code dans `Button.js` pour afficher cette valeur dans notre bouton.
+
 
 ```js
 return <button className='button>{props.text}</button>
