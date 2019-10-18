@@ -1,21 +1,22 @@
 # Bonus
 
-Ce chapitre est a titre informatif pour ceux qui suivent ou veulent suivre React.js.
+Ce chapitre est à titre informatif pour ceux qui suivent ou veulent suivre React.js.
 
-Avez-vous dèjà entendu parlé des Hooks ?? Non ?  Parfait ! 
-Installez-vous bien car j'ai une infos sympas a vous partager.
+Avez-vous dèjà entendu parlé des Hooks? Non?  Parfait!
+
+Installez-vous bien car j'ai une information sympa à vous partager.
 
 ![funny](https://media.giphy.com/media/GVK5Cn6tnqnUk/giphy.gif)
 
-# Petite intro aux Hooks
+# Petite introduction aux Hooks
 
-## Les Hooks sont une nouveauté de React 16.8. Ils permettent de bénéficier d’un état local et d’autres fonctionnalités de React sans avoir à écrire de classes.
+> Les Hooks sont une nouveauté de React 16.8. Ils permettent de bénéficier d’un état local et d’autres fonctionnalités de React sans avoir à écrire de classe.
 
-## Mais qu’est ce qu’un Hook ??
+## Mais qu’est-ce qu'un Hook?
 
-Les Hooks est une fonction qui permet de « se brancher » sur des fonctionnalités React. Par exemple, `useState` est un Hook qui permet d’ajouter l’état local React à des fonctions composants. Nous en apprendrons plus sur les Hooks par la suite. 
+Le Hook est une fonction qui permet de « se brancher » sur des fonctionnalités React. Par exemple, `useState` est un Hook qui permet d’ajouter l’état local React à des fonctions composants. Nous en apprendrons plus sur les Hooks par la suite. 
 
-Les Hooks ne fonctionnent pas dans des classes : ils vous permettent d’utiliser React sans classes.
+Les Hooks ne fonctionnent pas dans des classes: ils vous permettent d’utiliser React sans classes.
 
 React fournit quelques Hooks prédéfinis comme `useState`. Vous pouvez aussi créer vos propres Hooks pour réutiliser un comportement à état dans différents composants.
 
@@ -24,8 +25,7 @@ React fournit quelques Hooks prédéfinis comme `useState`. Vous pouvez aussi cr
 
 Auparavant, si vous écriviez une fonction composant et que vous réalisiez que vous aviez besoin d’un état local à l’intérieur, vous deviez la convertir en classe. Désormais vous pouvez utiliser un Hook à l’intérieur de votre fonction composant.
 
-
-Il y a deux sortes de Hooks , Hook d'état et Hook d'effet , je vous ai mis ci-dessous des liens vers la documentation qui me semble très intérenssante pour les grands fan de React.
+Il y a deux sortes de Hooks, Hook d'état et Hook d'effet, je vous ai mis ci-dessous des liens vers la documentation qui me semble très intéressante pour les grands fans de React.
 
 ## <a href="https://fr.reactjs.org/docs/hooks-state.html">Hook d'état</a>
 
@@ -36,7 +36,7 @@ Il y a deux sortes de Hooks , Hook d'état et Hook d'effet , je vous ai mis ci-d
 
 ## Impréssionant n'est ce pas ?! 
 
-*Si vous avez du mal a comprndre les hooks n'hesitez pas a consulter la doc depuis le début => [la documentation des hooks](https://fr.reactjs.org/docs/hooks-intro.html).*
+*Si vous avez du mal à comprendre les Hooks, n'hesitez pas à consulter la doc depuis le début => [la documentation des hooks](https://fr.reactjs.org/docs/hooks-intro.html).*
 
 ## Mise à jour de React
 

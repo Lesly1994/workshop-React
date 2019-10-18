@@ -32,7 +32,7 @@ On va ensuite afficher notre component entre le score et le bouton déjà prése
 ```js
 // [...]
 //	<p>{this.state.score}</p>
-	<Board>
+	<Board/>
 //	<Button text='Start game!' click={this.incrementScore.bind(this)}/>
 // [...]
 ```

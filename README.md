@@ -7,6 +7,7 @@
 - Lesly Ghyselinck
 
 Ce workshop va faire un rappel sur les bases de ReactJS pour ensuite vous lancer sur React Native.
+
 Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'avance. Alors suivez-bien !
 
 ---
