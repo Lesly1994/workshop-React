@@ -10,7 +10,7 @@ Avant de créer notre premier component, on va d'abord créer un dossier au nom 
 
 _*Petite info, lorsque vous créez un fichier dans le dossier `Components`, vos noms de fichier doivent commencer par une majuscule._ 
 
-Dans ce dossier `Components` on va créer un nouveau fichier `Button.js` (ne pas oublier la majuscule)
+Dans ce dossier `components` on va créer un nouveau fichier `Button.js` (ne pas oublier la majuscule)
 
 ![button](./img/component/component-button.png)
 
