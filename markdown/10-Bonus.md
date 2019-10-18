@@ -1,13 +1,13 @@
 # Bonus
 
-Ce chapitre est a titre informatif pour ceux qui suivent ou veulent suivre React.js.
+Ce chapitre est à titre informatif pour ceux qui suivent ou veulent suivre ReactJs.
 
-Avez-vous dèjà entendu parlé des Hooks ?? Non ?  Parfait !
-Installez-vous bien car j'ai une infos sympas a vous partager.
+Avez-vous dèjà entendu parlé des Hooks? Non?  Parfait!
+Installez-vous bien car j'ai une information sympa à vous partager.
 
 ![funny](https://media.giphy.com/media/GVK5Cn6tnqnUk/giphy.gif)
 
-# Petite intro aux Hooks
+# Petite introduction aux Hooks
 
 ## Les Hooks sont une nouveauté de React 16.8. Ils permettent de bénéficier d’un état local et d’autres fonctionnalités de React sans avoir à écrire de classes.
 
@@ -25,7 +25,7 @@ React fournit quelques Hooks prédéfinis comme `useState`. Vous pouvez aussi cr
 Auparavant, si vous écriviez une fonction composant et que vous réalisiez que vous aviez besoin d’un état local à l’intérieur, vous deviez la convertir en classe. Désormais vous pouvez utiliser un Hook à l’intérieur de votre fonction composant.
 
 
-Il y a deux sortes de Hooks , Hook d'état et Hook d'effet , je vous ai mis ci-dessous des liens vers la documentation qui me semble très intérenssante pour les grands fan de React.
+Il y a deux sortes de Hooks, Hook d'état et Hook d'effet, je vous ai mis ci-dessous des liens vers la documentation qui me semble très intérenssante pour les grands fans de React.
 
 ## <a href="https://fr.reactjs.org/docs/hooks-state.html">Hook d'état</a>
 
@@ -36,6 +36,18 @@ Il y a deux sortes de Hooks , Hook d'état et Hook d'effet , je vous ai mis ci-d
 
 ## Impréssionant n'est ce pas ?!
 
-*Si vous avez du mal a comprndre les hooks n'hesitez pas a consulter la doc depuis le début => [la documentation des hooks](https://fr.reactjs.org/docs/hooks-intro.html).*
+*Si vous avez du mal à comprendre les hooks n'hesitez pas à consulter la doc depuis le début => [la documentation des hooks](https://fr.reactjs.org/docs/hooks-intro.html).*
 
-PS : pour les petits curieux [regarde sa](lien arnaud)
+## Prochaine mise à jour de React
+La prochaine mise à jour de React se fera en automne ou hiver, le React 16.9
+
+**Les principales nouveautés attendues / annoncées:**
+
+La 16.9 est en développement depuis plusieurs mois. Durant l'été, les développeurs ont été appelés à tester les préversions. Parmi les nouveautés, on notera la dépréciation de UNSAFE_* ou encore de JavaScript :URLS, des composants Factory, pas mal de corrections de bugs. Parmi les nouveautés: Async act(), mesures de performances avec React.Profiler. Une nouvelle version de React DevTools a été déployée en août dernier.
+
+P.S.: pour les petits curieux regardez [ce lien](http://github.com/facebook/react/releases)
+
+Merci Arnaud !
+![merci](https://media.giphy.com/media/SWzyqJ61Uc3lh6eCCD/giphy.gif)
+
+Si vous avez d'autres questions, appelez Fred ! ;)
