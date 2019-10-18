@@ -103,7 +103,7 @@ export default App;
 
 Rendez-vous sur [ce lien](https://we.tl/t-77WKnEQNA3) pour télécharger un fichier ZIP qui contient un fichier CSS et des images dont vous aurez besoin.
 
-Téléchargez le contenu de ce dépot au format ".ZIP", compressez-le, prenez le dossier `static` et déposez-le dans le dossier `src` de votre projet.
+Téléchargez le contenu de ce dépot au format ".ZIP", décompressez-le, prenez le dossier `static` et déposez-le dans le dossier `src` de votre projet.
 
 Vous devrez ensuite importer notre nouveau fichier CSS en ajoutant une ligne au début du fichier `App.js`
 
