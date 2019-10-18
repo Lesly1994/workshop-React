@@ -1,12 +1,10 @@
 # State
 
-## Création du state
-
 Le state est une variable de type objet où l'on crée les différents éléments qu'on souhaite et qu'on pourra mettre à jour.
 
 _Le state se traduit par un état local. Il est similaire aux props sauf qu'il est privé et est entièrement contrôlé par le composant qui l'a créé. Il permet de stocker des données, de contrôler le rendu du composant et comment il se comporte. Un élément du state est accessible de la même manière d'un props: `this.state.monEtat`_
 
-Dans `App.js`, à l'intérieur de notre class au dessus du render, on va créer notre state avec un élément score.
+Dans `App.js`, à l'intérieur de notre classe au dessus du render, on va créer notre state avec un élément score.
 
 ```js
 class App extends Component {
@@ -36,14 +34,21 @@ class App extends Component {
 	//	score: 0,
 	// }
 
-	incrementScore(){
+	incrementScore = () => {
 		this.setState({score: this.state.score + 1})
 	}
+	
 
-	// render(){
-		//[...]
-	// }
-}
+//  render(){
+//    	return (
+//      	<div className="App">
+//        		<h1>Application React</h1>
+    			<p>this.state.score</p>
+//		 	<Button text='Start game!'/>
+//      	</div>
+//    	);
+//  }
+//}
 ```
 
 Notez cependant que setState() est une fonction asynchrone, c'est à dire que vous n'aurez pas forcément la nouvelle valeur si vous lisez une state directement après un setState()
@@ -57,7 +62,7 @@ On va donc passer notre fonction dans un prop du `Button`
 Dans l'appel du component "Button" dans `App.js`:
 
 ```js
-<Button text='Start game!' click={this.incrementScore.bind(this)}/>
+<Button text='Start game!' click={this.incrementScore}/>
 ```
 
 Le `.bind(this)` permet à notre fonction de fonctionner, si on ne met pas ce bind, le script plantera en disant qu'une  valeur est undefined *(avec bind tous les arguments sont automatiquement transmis)*.
