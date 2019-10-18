@@ -20,8 +20,9 @@ Avant de commencer à jouer avec React, vous devez savoir certaines choses à l'
 5. Les components
 6. Les states
 7. Board
-8. La final
-9. Bonus
+8. Le Chat
+9. Le click
+10. Un bonus
 
 Déjà avant tout chose, passons par la case « installation ».
 Pour pouvoir coder avec React il vous faut impérativement avoir NodeJs sur votre machine.
